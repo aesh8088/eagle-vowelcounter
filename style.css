@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    padding: 10px;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.hel{
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 87vh;
+}
+
+.container{
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 30px white;
+}
+
+.main h2{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: green;
+    font-weight: 700;
+}
+
+#vowel-btn{
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+}
+
+#vowel-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+#output{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+}
